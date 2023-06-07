@@ -1,0 +1,230 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open sans', sans-serif;
+}
+body{
+    height: 100vh;
+    background-color: black;
+    background-image: url("images/Background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+}
+a:hover{
+    color: orange;
+}
+li{
+    list-style: none;
+}
+.logo{
+    color: #fff;
+    font-weight: bolder;
+}
+header{
+    position: relative;
+    padding: 0 2rem;
+}
+.navbar{
+    width: 100%;
+    height: 70px;
+    margin: 0 auto;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+
+}
+.navbar.logo a{
+    font-weight: bolder;
+    color: orange;
+}
+.navbar .links{
+    display: flex;
+    gap: 2rem;
+}
+.navbar.toggle_btn{
+    font-size: 2rem;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+}
+
+@media (max-width: 922px){
+    .navbar.links{
+        display: none;
+    }
+}
+section#hero{
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+#hero h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+
+.About {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  #Main {
+    margin-top: 30px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+        border-bottom: 3px solid #ddd; 
+        
+
+      
+  }
+  
+  h2 {
+    color: #8C7AE6;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    color: #333333;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .fa-brands {
+    margin-right: 10px;
+    font-size: 24px;
+    color: #8C7AE6;
+  }
+
+  .Projects {
+    background: #8C7AE6;
+    padding: 20px;
+    color: #fff;
+  }
+  
+  .Projects h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .Projects ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .Projects li {
+    margin-bottom: 40px;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  .Projects h2 {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .Projects i {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  .Projects p {
+    color: #fff;
+  }
+  
+  .Projects a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .Projects a:hover {
+    text-decoration: underline;
+  }
+  
+
+  .Contact {
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+  
+  .Contact h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .Contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .Contact label {
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .Contact input,
+  .Contact textarea {
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .Contact button {
+    padding: 10px 20px;
+    background-color: #2BAE66;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .Contact button:hover {
+    background-color: #208c55;
+  }
+  .Footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .FooterContent {
+    color: #555;
+  }
+  
